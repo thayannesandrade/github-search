@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background: #E5E5E5;
+    font-family: 'Quicksand', sans-serif;
+}
+
+nav {
+    height: 66px;
+    padding: 15px 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+nav > img {
+    width: 208px;
+}
+
+.search > input {
+    width: 404px;
+    height: 42px;
+    padding: 12px 11px;
+    border: 1px solid #BEBEBE;
+    border-radius: 8px;
+    background-color: white;
+}
+
+button {
+    background-color: white;
+    border: 0;
+    position: absolute;
+    right: 25px;
+    top: 20px;
+    cursor: pointer;
+}
+
+#section-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:42.5vw;
+}
+
+#card__info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+}
+
+.img_github {
+    width: 280px;
+    height: 280px;
+    border-radius: 10px;
+}
+
+.card_title > h2 {
+    font-size: 22px;
+    color: #EC9B69;
+}
+
+.card_title > p {
+    font-size: 16px;
+    padding-top: 10px;
+    font-weight: bold;
+    color: #313131;
+}
+
+.card_bio > p {
+    font-size: 16px;
+    color: #313131;
+    width: 274px;
+    padding-bottom: 10px;
+}
+
+.card_icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+    border-radius: 8px;
+    width: 10vh;
+}
+
+.icon1 {
+    size: 24px;
+    padding: 10px;
+}
+
+.icon2 {
+    size: 24px;
+    padding: 10px;
+}
+
+.notfound_user {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.notfound_user > h1 {
+    color: #EC9B69;
+    font-size: 48px;
+}
+
+.notfound_user > p {
+    color: #313131;
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.img_notfound {
+    margin: -100px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    height:45px;
+    place-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #EC9B69;
+    font-weight: bold;
+}
